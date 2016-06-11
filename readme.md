@@ -2,4 +2,4 @@
 
 Use this Chrome extension to give Phil Kessel the recognition he deserves.
 
-[He deserves it](screenshot.png)
+![He deserves it](screenshot.png)
