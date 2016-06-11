@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Kessel!",
+	"description": "Giving Phil Kessel the credit he deserves.",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": "phil-icon.png",
+		"default_title": "Phil Kessel!"
+	},
+	"content_scripts": [{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"js": [
+				"kessel.js"
+			],
+			"run_at": "document_end"
+		}]
+}
