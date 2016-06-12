@@ -2,10 +2,14 @@
 	"manifest_version": 2,
 	"name": "Kessel!",
 	"description": "Giving Phil Kessel the credit he deserves.",
-	"version": "1.0",
+	"version": "1.1",
 	"browser_action": {
 		"default_icon": "phil-icon.png",
 		"default_title": "Phil Kessel!"
+	},
+	"icons": {
+		"48": "icon48.png",
+		"128": "icon128.png"
 	},
 	"content_scripts": [{
 			"matches": [
